@@ -1,18 +1,9 @@
-#大模型权重
-*.gguf
-*.bin
-*.safetensors
-
-#向量库文件夹
-faiss_index/
-vector_db/
+#向量缓存目录
+faiss_db/
+vector_store/
+data/
+flagged/
 
 #python缓存
 __pycache__/
 *.pyc
-*.pyo
-
-#临时文件日志
-*.log
-*.tmp
-.DS_Store
